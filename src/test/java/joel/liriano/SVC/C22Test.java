@@ -8,7 +8,7 @@ class C22Test {
     private C22 c22 = new C22();
 
     @Test
-    void mATest(){
+    void testMA(){
         assertEquals("mA()",this.c22.mA());
     }
 }
